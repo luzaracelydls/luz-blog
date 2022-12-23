@@ -1,6 +1,6 @@
 # Luz
 
-## [Blog](https://luz-blog.netlify.app/)
+## Blog [Blog](https://luz-blog.netlify.app/)
 
 _Fully customizable blog template with a React.js front-end._
 
