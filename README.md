@@ -1,5 +1,7 @@
 # Luz
 
+## [Blog](https://luz-blog.netlify.app/)
+
 _Fully customizable blog template with a React.js front-end._
 
 Deployed from [sanity.io/create](https://www.sanity.io/create/?template=sanity-io%2Fsanity-template-gatsby-blog).
