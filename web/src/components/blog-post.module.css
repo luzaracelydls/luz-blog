@@ -4,6 +4,9 @@
 .root {}
 
 .title {
+  background-color: var(--color-white);
+  display: inline-block;
+  
   composes: responsiveTitle1 from './typography.module.css';
 }
 
@@ -34,6 +37,11 @@
   }
 }
 
+.mainContent p {
+  background-color: var(--color-white);
+  padding: 0 10px;
+  
+}
 .mainContent {
   @nest & a {
     color: var(--color-accent);
@@ -63,12 +71,18 @@
 }
 
 .publishedAt {
+  background-color: var(--color-black);
+  display: inline-block;
+  
   composes: small from './typography.module.css';
   margin: 2rem 0 3rem;
   color: var(--color-gray);
 }
 
 .categories {
+  background-color: var(--color-white);
+  display: inline-block;
+  
   border-top: 1px solid var(--color-very-light-gray);
   margin: 2rem 0 3rem;
 

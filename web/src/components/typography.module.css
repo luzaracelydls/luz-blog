@@ -104,6 +104,8 @@
 }
 
 .responsiveTitle3 {
+  display: inline-block;
+  background-color: var(--color-white);
   font-weight: 600;
   font-size: var(--font-large-size);
   line-height: var(--font-large-line-height);

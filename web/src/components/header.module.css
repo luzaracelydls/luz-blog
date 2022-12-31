@@ -12,16 +12,19 @@
   max-width: 960px;
   padding: 1em;
   display: flex;
-
+  align-items: center;
   @media (--media-min-small) {
     padding: 1.5em 1.5em;
   }
 }
 
 .branding {
+  display: inline-block;
+  background-color: var(--color-white);
   font-weight: 600;
   flex: 1;
-
+  font-size: 20px;
+  color: black;
   @nest & a {
     display: inline-block;
     padding: 0.5em;

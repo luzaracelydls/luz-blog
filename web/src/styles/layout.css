@@ -6,8 +6,8 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased;
-  background: #bb26a8;
-  color: var(--color-white);
+  background: #f72585; /* #bb26a8;*/
+  color: var(--color-black);
   margin: 0;
 }
 

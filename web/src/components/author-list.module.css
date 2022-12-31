@@ -6,6 +6,8 @@
 }
 
 .headline {
+  background-color: var(--color-white);
+  display: inline-block;
   composes: base from './typography.module.css';
   font-weight: 600;
   margin: 0.5rem 0 0;
